@@ -1,0 +1,313 @@
+/* .row{
+    border: 1px solid green;
+} */
+
+/* [class*="col"]{
+    border: 1px solid purple;
+} */
+
+/* #backgroundimage{
+    float: left;
+    z-index: -1;
+} */
+
+.navbar-brand{
+    background-color: #4aaaa5;
+}
+
+.navbar-brand a{
+    color: white;
+}
+
+.backgroundimg {
+    float: left;
+    z-index: -1;
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.section1{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.section1text{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4aaaa5;
+}
+
+.section1line{
+    border: 1px solid #cccccc;
+    height: 1px;
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
+#image1 {
+    height: 120px;
+    width: 200px;
+    float: left;
+    margin-right: 5px;
+}
+
+.section2{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    background-color: white;
+}
+
+.section2text{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4aaaa5;
+}
+
+.section2line{
+    border: 1px solid #cccccc;
+    height: 1px;
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
+#fblink{
+    height: 100%;
+    width: 100%;
+}
+
+#lilink{
+    height: 100%;
+    width: 100%;
+}
+
+#twlink{
+    height: 100%;
+    width: 100%;
+}
+
+.footerline{
+    height: 10px;
+    background-color: #4aaaa5;
+}
+
+.footersection{
+    height: 100%;
+    background-color: #666666;
+    text-align: center;
+}
+
+.footer{
+    color: white;
+}
+
+#namebox{
+    border: 1px solid #cccccc;
+    height: 24px;
+    width: 100%;
+}
+
+#emailbox{
+    border: 1px solid #cccccc;
+    height: 24px;
+    width: 100%;
+}
+
+#messagebox{
+    border: 1px solid #cccccc;
+    height: 200px;
+    width: 100%;
+}
+
+#hangmansection{
+    border: 1px solid #cccccc;
+    height: 120px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -15px;
+}
+
+#hangmanpic{
+    height: 100%;
+    width: 100%;
+    float: left;
+    z-index: -1;
+}
+
+#hangman{
+    background: #4aaaa5;
+    color: white;
+    z-index: 1;
+    height: 20px;
+    width: 100%;
+    bottom: 30px;
+    position: relative;
+    vertical-align: middle;
+    float: left;
+    font-size: 30;
+}
+
+#rpgsection{
+    border: 1px solid #cccccc;
+    height: 120px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -15px;
+}
+
+#rpgpic{
+    height: 100%;
+    width: 100%;
+}
+
+#rpg{
+    background: #4aaaa5;
+    color: white;
+    z-index: 1;
+    height: 20px;
+    width: 100%;
+    bottom: 30px;
+    position: relative;
+    vertical-align: middle;
+    float: left;
+    font-size: 30;
+}
+
+#triviasection{
+    border: 1px solid #cccccc;
+    height: 120px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -15px;
+}
+
+#triviapic{
+    height: 100%;
+    width: 100%;
+}
+
+#trivia{
+    background: #4aaaa5;
+    color: white;
+    z-index: 1;
+    height: 20px;
+    width: 100%;
+    bottom: 30px;
+    position: relative;
+    vertical-align: middle;
+    float: left;
+    font-size: 30;
+}
+
+#infowidgetsection{
+    border: 1px solid #cccccc;
+    height: 120px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -15px;
+}
+
+#infowidgetpic{
+    height: 100%;
+    width: 100%;
+}
+
+#widget{
+    background: #4aaaa5;
+    color: white;
+    z-index: 1;
+    height: 20px;
+    width: 100%;
+    bottom: 30px;
+    position: relative;
+    vertical-align: middle;
+    float: left;
+    font-size: 30;
+}
+
+#rpssection{
+    border: 1px solid #cccccc;
+    height: 120px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -15px;
+}
+
+#rpspic{
+    height: 100%;
+    width: 100%;
+}
+
+#rps{
+    background: #4aaaa5;
+    color: white;
+    z-index: 1;
+    height: 20px;
+    width: 100%;
+    bottom: 30px;
+    position: relative;
+    vertical-align: middle;
+    float: left;
+    font-size: 30;
+}
+
+@media only screen and (max-width: 768px){
+    #fblink{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        margin-bottom: 20px;
+}
+    #lilink{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        margin-bottom: 20px;
+    }
+
+    #twlink{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        margin-bottom: 20px;
+    }
+
+/* @media only screen and (max-width: 992px){
+    #fblink{
+        position: relative;
+        width: 50%;
+        height: 50%;
+        left: 175%;
+        margin-bottom: 20px;
+}
+    #lilink{
+        position: relative;
+        width: 50%;
+        height: 50%;
+        left: 175%;
+        margin-bottom: 20px;
+    }
+
+    #twlink{
+        position: relative;
+        width: 50%;
+        height: 50%;
+        left: 175%;
+        margin-bottom: 20px;
+    } */
+
+
+/* * {
+    padding: 0px
+} */
