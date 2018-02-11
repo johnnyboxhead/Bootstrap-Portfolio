@@ -131,7 +131,7 @@
     width: 200px;
     text-align: center;
     margin-bottom: 20px;
-    margin-left: -15px;
+    margin-left: -15%;
 }
 
 #hangmanpic{
@@ -160,7 +160,7 @@
     width: 200px;
     text-align: center;
     margin-bottom: 20px;
-    margin-left: -15px;
+    margin-left: 5%;
 }
 
 #rpgpic{
@@ -187,7 +187,7 @@
     width: 200px;
     text-align: center;
     margin-bottom: 20px;
-    margin-left: -15px;
+    margin-left: -15%;
 }
 
 #triviapic{
@@ -214,7 +214,7 @@
     width: 200px;
     text-align: center;
     margin-bottom: 20px;
-    margin-left: -15px;
+    margin-left: 5%;
 }
 
 #infowidgetpic{
@@ -241,7 +241,7 @@
     width: 200px;
     text-align: center;
     margin-bottom: 20px;
-    margin-left: -15px;
+    margin-left: -15%;
 }
 
 #rpspic{
@@ -262,27 +262,223 @@
     font-size: 30;
 }
 
+@media only screen and (max-width: 992px){
+    .section1text{
+        text-align: left;
+        margin-left: 2%;
+    }
+
+    #image1 {
+        margin-left: 2%;
+    }
+
+    p {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .section2text{
+        text-align: left;
+        margin-left: 2%;
+    }
+    
+    #hangmansection{
+        border: 1px solid #cccccc;
+        height: 240px;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+
+    #rpgsection{
+        border: 1px solid #cccccc;
+        height: 240px;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+        float: left;
+    }
+
+    #triviasection{
+        border: 1px solid #cccccc;
+        height: 240px;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+
+    #infowidgetsection{
+        border: 1px solid #cccccc;
+        height: 240px;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+
+    #rpssection{
+        border: 1px solid #cccccc;
+        height: 240px;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+    /* .backgroundimg{
+        height: 100%;
+    } */
+}
+
 @media only screen and (max-width: 768px){
     #fblink{
-        width: 50%;
-        height: 50%;
-        margin-left: 25%;
+        width: 20%;
+        height: 20%;
+        /* margin-left: 25%; */
         margin-bottom: 20px;
+        float: left;
+    
 }
     #lilink{
-        width: 50%;
-        height: 50%;
-        margin-left: 25%;
+        width: 20%;
+        height: 20%;
+        /* margin-left: 25%; */
         margin-bottom: 20px;
+        float: left;
+        margin-left: 5%;
     }
 
     #twlink{
-        width: 50%;
-        height: 50%;
-        margin-left: 25%;
+        width: 20%;
+        height: 20%;
+        /* margin-left: 25%; */
         margin-bottom: 20px;
+        float: left;
+        margin-left: 5%;
     }
 
+    #hangmansection{
+        border: 1px solid #cccccc;
+        height: 240px;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+
+    #rpgsection{
+        border: 1px solid #cccccc;
+        height: 240px;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+        float: left;
+    }
+
+    #triviasection{
+        border: 1px solid #cccccc;
+        height: 240px;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+
+    #infowidgetsection{
+        border: 1px solid #cccccc;
+        height: 240px;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+
+    #rpssection{
+        border: 1px solid #cccccc;
+        height: 240px;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+}    
+
+@media only screen and (max-width: 562px){
+    #fblink{
+        width: 20%;
+        height: 20%;
+        /* margin-left: 25%; */
+        margin-bottom: 20px;
+        float: left;
+    
+}
+    #lilink{
+        width: 20%;
+        height: 20%;
+        /* margin-left: 25%; */
+        margin-bottom: 20px;
+        float: left;
+        margin-left: 5%;
+    }
+
+    #twlink{
+        width: 20%;
+        height: 20%;
+        /* margin-left: 25%; */
+        margin-bottom: 20px;
+        float: left;
+        margin-left: 5%;
+    }
+
+    #hangmansection{
+        border: 1px solid #cccccc;
+        height: 120px;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+
+    #rpgsection{
+        border: 1px solid #cccccc;
+        height: 120px;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+        float: left;
+    }
+
+    #triviasection{
+        border: 1px solid #cccccc;
+        height: 120px;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+
+    #infowidgetsection{
+        border: 1px solid #cccccc;
+        height: 120px;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+
+    #rpssection{
+        border: 1px solid #cccccc;
+        height: 120px;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+}    
 /* @media only screen and (max-width: 992px){
     #fblink{
         position: relative;
@@ -290,7 +486,7 @@
         height: 50%;
         left: 175%;
         margin-bottom: 20px;
-}
+    }
     #lilink{
         position: relative;
         width: 50%;
@@ -305,9 +501,5 @@
         height: 50%;
         left: 175%;
         margin-bottom: 20px;
-    } */
-
-
-/* * {
-    padding: 0px
+    }
 } */
