@@ -262,6 +262,33 @@
     font-size: 30;
 }
 
+#lirisection{
+    border: 1px solid #cccccc;
+    height: 120px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+
+#liripic{
+    height: 100%;
+    width: 100%;
+}
+
+#liri{
+    background: #4aaaa5;
+    color: white;
+    z-index: 1;
+    height: 20px;
+    width: 100%;
+    bottom: 30px;
+    position: relative;
+    vertical-align: middle;
+    float: left;
+    font-size: 30;
+}
+
 @media only screen and (max-width: 992px){
     .section1text{
         text-align: left;
@@ -320,6 +347,15 @@
     }
 
     #rpssection{
+        border: 1px solid #cccccc;
+        height: 240px;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+
+    #lirisection{
         border: 1px solid #cccccc;
         height: 240px;
         width: 400px;
@@ -404,6 +440,15 @@
         margin-bottom: 20px;
         margin-left: 0%;
     }
+
+    #lirisection{
+        border: 1px solid #cccccc;
+        height: 240px;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
 }    
 
 @media only screen and (max-width: 562px){
@@ -471,6 +516,15 @@
     }
 
     #rpssection{
+        border: 1px solid #cccccc;
+        height: 120px;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+
+    #lirisection{
         border: 1px solid #cccccc;
         height: 120px;
         width: 200px;
